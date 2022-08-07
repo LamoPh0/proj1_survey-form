@@ -1,0 +1,85 @@
+body {
+    background-color: #6f3f4f;
+    color: rgb(215, 195, 125);
+    text-align: center;
+  }
+  fieldset {
+    border: 0.15em rgb(215, 195, 125) dashed;
+    border-right: none;
+    border-left: none;
+    margin: auto;
+  }
+  fieldset:nth-of-type(1) {
+    border-bottom: none;
+  }
+  legend {
+    background-color: #5f5f6f;
+    border: .05em solid rgb(160, 180, 200);
+    padding: 5;
+  }
+  input {
+    width: auto;
+    text-align: center;
+    background-color: #5f5f6f;
+    color: rgb(215, 195, 125);
+    height: 22;
+    margin-bottom: 7;
+    margin-top: 7;
+    border-radius: 5px;
+  
+  }
+  input::placeholder { 
+    color: rgb(215, 195, 125);
+    opacity: 40%;
+  }
+  label {
+    color: rgb(160, 180, 200);
+  }
+  .name {
+    display: inline-block;
+  }
+  select {
+    background-color: #5f5f6f;
+    color: rgb(215, 195, 125);
+    margin-bottom: 20;
+  }
+  .AoI {
+    border: solid 1px rgb(215, 195, 125);
+    border-radius: 60px;
+    box-shadow: 3px 3px 9px;
+  }
+  #dropdown-label {
+    text-decoration: rgb(160, 180, 200) underline 1px;
+  }
+  radio {
+    background-color: #5f5f6f;
+    color: rgb(215, 195, 125);  
+    
+  }
+  .p2 {
+    margin-bottom: 26;
+  }
+  textarea {
+    background-color: #5f5f6f;
+    color: rgb(215, 195, 125);
+    text-align: center;
+  }
+  button {
+    background-color: #5f5f6f ; 
+    color: rgb(215, 195, 125);
+  }
+  div {
+    margin: 20px;
+  }
+  .accept {
+    display: inline-block;
+    width: 70%;
+    margin-left: 20;
+  margin-right:20;
+  }
+  .decline {
+    display: inline-block;
+    width: 70%;
+    margin-left: 20;
+    margin-right:20;
+  }  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>(+) Formulário</title>
+  <link href="styles.css" rel="stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <h1 id="title">The <em>Positive</em> Organizacão Formulário</h1>
+    <p id="description">Do you <em>know</em> you've got what it takes to reach the next phase? Tell us <strong>ALL</strong> about you!</p>
+  </body>
+  <form id="survey-form">
+    <fieldset>
+      <legend>Personal Info</legend>
+      <div>
+        <label id="name-label" class="name">Given: </label><input class="name" type="text" id="name" placeholder="First" required></input></div>
+      <div>
+        <label id="name-label" class="name">Family: </label><input class="name" type="text" id="name" placeholder="Last" required></input></div>
+      <div>
+        <label id="email-label" class="email">Contact: </label><input type="email" id="email" placeholder="Email" class="email" required></input><div>
+      <div>
+        <label id="number-label">Orbits Completed: </label><input type="number" id="number" placeholder="18≥" min="18" max="100" required></input></div>
+   </fieldset>
+   <fieldset>
+     <legend>Expertise</legend>
+     <p class="p2">This is an opportunity to highlight your best self, so show off the modesty another time ;)</p>
+     <div>
+       <label id="dropdown-label">Area of Interest: </label>
+       <select id="dropdown" class="AoI">
+         <option value="">Choose Best Fit</option>
+         <option value="anime">Anime</option>
+         <option value="music">Music</option>
+         <option value="finance">Finance</option>
+         <option value="healthcare">Healthcare</option>
+         <option value="governance">Governance</option>
+         <option value="stem">STEM</option>
+         <option value="multidisciplinary">Multidisciplinary</option>
+      </select></div>
+    <input type="radio" class="fill-sel" id="fill-sel1" name="fill-sel" value="fill-sel1" required></input><input type="text" class="fill-text" id="fill-text1" placeholder="Trait I"></input>
+    <input type="radio" class="fill-sel" id="fill-sel2" name="fill-sel" value="fill-sel2" required></input><input type="text" class="fill-text" id="fill-text2" placeholder="Trait II"></input>
+    <input type="radio" class="fill-sel" id="fill-sel3" name="fill-sel" value="fill-sel3" required></input><input type="text" class="fill-text" id="fill-text3" placeholder="Trait III"></input>
+    <p><strong>Step 1.</strong> Fill each text input with (1) trait you feel will be most beneficial to an organization.</p>
+    <p><strong>Step 2.</strong> Prioritize the trait that you are best able to utilize.<enter>
+   </fieldset>
+   <div>
+     <textarea id="comments"  placeholder="Remarks or Review, Thanks!" value="remarks"></textarea>
+     </textarea>
+  </div>
+  <fieldset>
+    <legend>Finish</legend>
+    <p>Here's where you take the reigns... Besides ablity, do you desire to reach the next phase? Choose leisurely.</p>
+   <div> 
+     <label id="agree-label" class="accept">I Agree: <input type="checkbox" id="agree" name="choice" value="agree" class="accept" required></input>
+    </div>
+    <div>
+      <label id="decline-label" class="decline">I Decline: <input type="checkbox"  id="decline" name="choice" value="decline" class="decline"></input>
+   </div>
+     <div>
+       <button id="submit">Submit</submit>
+    </div>
+   </fieldset>
+  </form>
+</html>
